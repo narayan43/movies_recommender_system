@@ -5,7 +5,7 @@ import requests
 import creds
 with open("./data_dict.pkl", 'rb') as f:
     x = pickle.load(f)
-with open("./similarvec.pkl", 'rb') as f:
+with open("https://drive.google.com/file/d/1L-5tH7inrAvDd1PKYshvxEzgfBklPc8O/view?usp=sharing", 'rb') as f:
     similarity = pickle.load(f)
 data=pd.DataFrame(x)
 print(data.shape)
