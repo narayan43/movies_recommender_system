@@ -41,7 +41,7 @@ def poster_links():
         pos_path= json['results'][0]['poster_path']
         posters_paths.append(f'https://image.tmdb.org/t/p/original/{pos_path}')
       except:
-         posters_paths.append("https://github.com/narayan43/movies_recommender_system/blob/main/images.jpeg")
+         posters_paths.append("./images.jpeg")
     return posters_paths
         
 posters_paths=poster_links()
